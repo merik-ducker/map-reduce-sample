@@ -11,7 +11,7 @@ define(['N/task'],
         const afterSubmit = (scriptContext) => {
             const classTask = task.create({
                 taskType: task.TaskType.MAP_REDUCE,
-                scriptId: 'customscript_md_mr_sfas_class'
+                scriptId: 'customscript_md_mr_sfas_segment'
             });
             classTask.submit();
         }

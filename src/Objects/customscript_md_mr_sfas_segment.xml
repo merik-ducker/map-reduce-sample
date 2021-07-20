@@ -1,21 +1,21 @@
-<mapreducescript scriptid="customscript_md_mr_sfas_class">
+<mapreducescript scriptid="customscript_md_mr_sfas_segment">
   <description></description>
   <isinactive>F</isinactive>
-  <name>MD | MR | SFAS | Class</name>
+  <name>MD | MR | SFAS | Segment</name>
   <notifyadmins>F</notifyadmins>
   <notifyemails></notifyemails>
   <notifyowner>T</notifyowner>
-  <scriptfile>[/SuiteScripts/segments-for-all-subs/md_mr_sfas_class.js]</scriptfile>
+  <scriptfile>[/SuiteScripts/segments-for-all-subs/md_mr_sfas_segment.js]</scriptfile>
   <scriptdeployments>
-    <scriptdeployment scriptid="customdeploy_md_mr_sfas_class_2">
+    <scriptdeployment scriptid="customdeploy_md_mr_sfas_segment_3">
       <buffersize>1</buffersize>
-      <concurrencylimit>1</concurrencylimit>
+      <concurrencylimit>2</concurrencylimit>
       <isdeployed>T</isdeployed>
       <loglevel>DEBUG</loglevel>
       <queueallstagesatonce>T</queueallstagesatonce>
       <runasrole>ADMINISTRATOR</runasrole>
       <status>NOTSCHEDULED</status>
-      <title>MD | MR | SFAS | class 2</title>
+      <title>MD | MR | SFAS | Segment 3</title>
       <yieldaftermins>60</yieldaftermins>
       <recurrence>
         <single>
@@ -25,15 +25,15 @@
         </single>
       </recurrence>
     </scriptdeployment>
-    <scriptdeployment scriptid="customdeploy_md_mr_sfas_class_3">
+    <scriptdeployment scriptid="customdeploy_md_mr_sfas_segment_4">
       <buffersize>1</buffersize>
-      <concurrencylimit>1</concurrencylimit>
+      <concurrencylimit>2</concurrencylimit>
       <isdeployed>T</isdeployed>
       <loglevel>DEBUG</loglevel>
       <queueallstagesatonce>T</queueallstagesatonce>
       <runasrole>ADMINISTRATOR</runasrole>
       <status>NOTSCHEDULED</status>
-      <title>MD | MR | SFAS | class 3</title>
+      <title>MD | MR | SFAS | Segment 4</title>
       <yieldaftermins>60</yieldaftermins>
       <recurrence>
         <single>
@@ -43,15 +43,15 @@
         </single>
       </recurrence>
     </scriptdeployment>
-    <scriptdeployment scriptid="customdeploy_md_mr_sfas_class_4">
+    <scriptdeployment scriptid="customdeploy_md_mr_sfas_segment_5">
       <buffersize>1</buffersize>
-      <concurrencylimit>1</concurrencylimit>
+      <concurrencylimit>2</concurrencylimit>
       <isdeployed>T</isdeployed>
       <loglevel>DEBUG</loglevel>
       <queueallstagesatonce>T</queueallstagesatonce>
       <runasrole>ADMINISTRATOR</runasrole>
       <status>NOTSCHEDULED</status>
-      <title>MD | MR | SFAS | class 4</title>
+      <title>MD | MR | SFAS | Segment 5</title>
       <yieldaftermins>60</yieldaftermins>
       <recurrence>
         <single>
@@ -61,15 +61,15 @@
         </single>
       </recurrence>
     </scriptdeployment>
-    <scriptdeployment scriptid="customdeploy_md_mr_sfas_class_1">
+    <scriptdeployment scriptid="customdeploy_md_mr_sfas_segment_2">
       <buffersize>1</buffersize>
-      <concurrencylimit>1</concurrencylimit>
+      <concurrencylimit>2</concurrencylimit>
       <isdeployed>T</isdeployed>
       <loglevel>DEBUG</loglevel>
       <queueallstagesatonce>T</queueallstagesatonce>
       <runasrole>ADMINISTRATOR</runasrole>
       <status>NOTSCHEDULED</status>
-      <title>MD | MR | SFAS | class</title>
+      <title>MD | MR | SFAS | Segment 2</title>
       <yieldaftermins>60</yieldaftermins>
       <recurrence>
         <single>
@@ -79,15 +79,15 @@
         </single>
       </recurrence>
     </scriptdeployment>
-    <scriptdeployment scriptid="customdeploy_md_mr_sfas_class_5">
+    <scriptdeployment scriptid="customdeploy_md_mr_sfas_segment_1">
       <buffersize>1</buffersize>
-      <concurrencylimit>1</concurrencylimit>
+      <concurrencylimit>2</concurrencylimit>
       <isdeployed>T</isdeployed>
       <loglevel>DEBUG</loglevel>
       <queueallstagesatonce>T</queueallstagesatonce>
       <runasrole>ADMINISTRATOR</runasrole>
       <status>NOTSCHEDULED</status>
-      <title>MD | MR | SFAS | class 5</title>
+      <title>MD | MR | SFAS | Segment 1</title>
       <yieldaftermins>60</yieldaftermins>
       <recurrence>
         <single>
